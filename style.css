@@ -1,0 +1,66 @@
+.header {
+  background-color: rgb(151, 186, 231);
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.Main {
+  background-color: dimgray;
+  height: 600px;
+  color: #fff;
+}
+
+.main1 {
+  margin: 50;
+  font-size: 25px;
+  text-align: center;
+}
+.main1-logo {
+  padding: 30px;
+}
+.birth-button {
+  font-size: 20px;
+}
+
+.main2 {
+  margin: 100px 50px 50px 50px;
+  font-size: 25px;
+  text-align: center;
+}
+.main2-logo {
+  padding: 30px;
+}
+.uni-button {
+  font-size: 20px;
+
+  padding: 20px 40px;
+}
+
+.manga-button {
+  font-size: 20px;
+
+  padding: 20px 40px;
+}
+.sport-button {
+  font-size: 20px;
+
+  padding: 20px 40px;
+}
+.main3 {
+  font-size: 20px;
+  text-align: center;
+}
+.problem-input {
+  color: #fff;
+  border: solid 1px black;
+}
+.footer {
+  background-color: rgb(151, 186, 231);
+  color: #fff;
+  height: 120px;
+}

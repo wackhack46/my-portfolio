@@ -2,14 +2,47 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <div class="header">
+      <div class="header-logo">My Portfolio</div>
+    </div>
+    <div class="Main">
+      <div class="main1">
+        <div class="main1-logo">プロフィール</div>
+        <button class="birth-button" id="birth-button">・出身地</button>
+
+        <button class="uni-button" id="uni-button">・通っている大学</button>
+      </div>
+
+      <div class="main2">
+        <div class="main2-logo">好きなこと</div>
+        <button class="sport-button" id="sport-button">・スポーツ</button>
+        <button class="manga-button" id="manga-button">・漫画</button>
+      </div>
+
+      <div class="main3">
+        <div class="problem">
+          <ul>
+            問題
+          </ul>
+          <p>好きなスポーツは何だったでしょうか?</p>
+        </div>
+        <input class="problem-input" id="problem-input" id type=" text " />
+        <button class="answer-button" id="answer-button">決定</button>
+      </div>
+      <div id="feedback"></div>
+    </div>
+    <div class="footer">
+      "ひとこと"<br />
+      デザインのセンス壊滅的過ぎた
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
